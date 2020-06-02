@@ -1,103 +1,87 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
+    font-family: sans-serif;}
 
 h1 {
     font-size: 175%;
     text-align: center;
-    margin: 30px 0px 30px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 .section {
     float: left;
-    background-color: rgb(172, 165, 165);
     border: 1px black solid;
-    margin: 0px 10px 20px 10px;
+    background-color: rgb(170, 170, 170);
+}
+
+.title {
+    float: right;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    font-size: 175%;
+    border: 1px black;
+    border-style: none none solid solid;
 }
 
 .content {
-    float: left;
-    width: 90%;
-    margin: 0px auto 20px auto;
-    padding: 0px 10px 10px 10px;
+    padding: 40px 0px 10px 10px;
     font-size: 125%;
-    /* border: 1px black solid; */
-}
-
-div#container {
-    float: left;
 }
 
 .Chicken {
-    float: right;
-    background-color: steelblue;
-    border: 1px black solid ;
-    font-size: 175%;
+    background-color: darksalmon;
 }
 
 .Beef {
-    float: right;
-    background-color: coral;
-    border: 1px black solid;
-    font-size: 175%;
+    background-color: lightcoral;
 }
 
 .Sushi {
-    float: right;
-    background-color: palevioletred;
-    border: 1px black solid;
-    font-size: 175%;
+    background-color: wheat;
 }
 
 @media (min-width: 992px) {
+    .section {
+        margin: 10px 0% 10px 2.5%;
+    }
     .section_chicken {
-        border: 1px black solid;
         width: 30%;
     }
     .section_beef {
-        border: 1px black solid;
         width: 30%;
     }
     .section_sushi {
-        border: 1px black solid;
         width: 30%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .section {
+        margin: 10px 0% 10px 4%;
+    }
     .section_chicken {
-        float: left;
-        border: 1px black solid;
-        width: 45%;
+        width: 44%;
     }
     .section_beef {
-        float: left;
-        border: 1px black solid;
-        width: 45%;
+        width: 44%;
     }
     .section_sushi {
-        float: left;
-        border: 1px black solid;
-        width: 100%;
+        width: 92%;
     }
 }
 
 @media (max-width: 767px) {
+    .section {
+        margin: 10px 0% 10px 4%;
+    }
     .section_chicken {
-        float: left;
-        border: 1px black;
-        width: 100%;
+        width: 92%;
     }
     .section_beef {
-        float: left;
-        border: 1px black;
-        width: 100%;
+        width: 92%;
     }
     .section_sushi {
-        float: left;
-        border: 1px black;
-        width: 100%;
+        width: 92%;
     }
 }
