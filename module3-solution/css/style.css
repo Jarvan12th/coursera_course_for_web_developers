@@ -1,0 +1,64 @@
+#header-nav {
+    background-color: rgb(134, 134, 134);
+}
+
+.navbar {
+    margin: 0px auto 0px auto;
+}
+
+.navbar .container {
+    margin: 0px 0px 0px 0px;
+}
+
+.navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+}
+
+.navbar-brand h1 {
+    padding-top: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -60px;
+    border: 1px solid black;
+}
+
+ .navbar-header .icon-bar {
+    border: 2px solid black;
+}
+
+#nav-list a {
+    /* background-color: rgb(68, 38, 38); */
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* .section {
+    margin: 5px 2%  5px 2%;
+} */
+
+.section_title h3 {
+    margin: 5px auto 5px auto;
+}
+
+.section_content {
+    margin-bottom: 10px;
+}
+
+/* Medium Devices and Small Devices */
+@media (min-width: 768px) {
+    #collapsable-nav {
+        display: none!important;
+    }
+}
